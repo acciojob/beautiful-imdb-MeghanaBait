@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.movie-container {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.moviePic {
+    height: 400px;
+    width: 280px;
+    opacity: 0.9;
+    border-radius: 10px; /* Optional: Add a border radius for a smoother look */
+}
+
+.movieDetail {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    color: #333; /* Optional: Adjust text color to your preference */
+    margin: 0 auto;
+}
